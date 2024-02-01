@@ -19,7 +19,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                python hello.py
+                python helloworld.py
                 '''
             }
         }
